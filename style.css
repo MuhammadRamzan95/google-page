@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.ramzan-sec1{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+.ramzan-sec1 .rmzn-header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.ramzan-sec1 .rmzn-header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ramzan-sec1 .rmzn-header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.ramzan-sec1 .rmzn-header ul li button{
+    list-style: none;
+    margin-right: 20px;
+}
+.ramzan-sec1 .rmzn-header ul li a{
+    color: #111;
+    font-size: 15px;
+    text-decoration: none;
+}
+.ramzan-sec1 .rmzn-header ul li button{
+    border: none;
+    outline: none;
+    background-color: #4584ef;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 700px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.ramzan-sec1 .mian{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ramzan-sec1 .mian .search-rrmz{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.search-rrmz .search{
+    width: 100%;
+    border-radius: 30px;
+    outline: none;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+.ramzan-sec1 .mian .search-rrmz .icons-rmzn{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+.ramzan-sec1 .mian .rmzn-btn{
+    margin: 20px;
+}
+.ramzan-sec1 .mian .rmzn-btn button{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555555;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+.ramzan-sec1 .mian .rmzn-btn button:hover{
+   border: 1px solid #ccc;
+}
+.ramzan-sec1 .mian .rmzn-languages{
+    display: flex;
+}
+.ramzan-sec1 .mian .rmzn-languages li{
+    list-style: none;
+    margin: 0 5px;
+}
+.ramzan-sec1 .mian .rmzn-languages li a{
+    text-decoration: none;
+}
+.ramzan-sec1 .mian .rmzn-languages li a:hover{
+    text-decoration: underline;
+}
+.ramzan-sec1 .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    
+    
+}
+.ramzan-sec1 .footer .row{
+    padding: 15px 25px;
+}
+.ramzan-sec1 .footer .line1{
+ border-bottom: 1px solid #dadce0;
+}
+.ramzan-sec1 .footer .row.line2{
+    display: flex;
+    justify-content: space-between;
+}
+.ramzan-sec1 .footer .row.line2 ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.ramzan-sec1 .footer .row.line2 ul li{
+    list-style: none;
+    padding-right: 20px;
+}
+.ramzan-sec1 .footer .row.line2 ul li:hover{
+    text-decoration: underline;
+}
+
+
